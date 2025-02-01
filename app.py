@@ -13,9 +13,10 @@ app.config['SECRET_KEY'] = 'your-secret-key'
 socketio = SocketIO(app)
 
 # Email configuration
-SENDER_EMAIL = "urmishikhadash2004@gmail.com"
-RECEIVER_EMAIL = "integrasbiotek@gmail.com"
-EMAIL_PASSWORD = "wmcgtzwnpkmeermd"
+SENDER_EMAIL = "admin@gmail.com"
+RECEIVER_EMAIL = "receiver@gmail.com"
+#for google accounts ,goto accounts>security>two factor authentication>in-app passwords
+EMAIL_PASSWORD = "in-app-password"
 
 # Load the model and scaler
 try:
