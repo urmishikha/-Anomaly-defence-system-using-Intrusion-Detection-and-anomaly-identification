@@ -1,0 +1,2 @@
+# -Anomaly-defence-system-using-Intrusion-Detection-and-anomaly-identification
+ AI-powered cybersecurity systems are crucial for protecting sensitive data, offering students an exciting opportunity to explore anomaly detection and threat mitigation. Developing a cybersecurity AI with intrusion detection capabilities strengthens your understanding of machine learning, anomaly detection, and real-time alerting.
