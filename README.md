@@ -55,3 +55,8 @@ Project Development Steps
   
  # dataset link:
  https://github.com/jmnwong/NSL-KDD-Dataset/blob/master/KDDTrain%2B.txt
+
+
+
+ # working frontend screenshot
+ ![project screenshot](https://github.com/urmishikha/-Anomaly-defence-system-using-Intrusion-Detection-and-anomaly-identification/issues/1#issue-2825249646)
