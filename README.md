@@ -52,3 +52,6 @@ Project Development Steps
 7. Testing and Deployment:
     * Test the system in controlled environments using simulated attacks.
     * Deploy on cloud platforms (AWS, Azure) or local servers.
+  
+ # dataset link:
+ https://github.com/jmnwong/NSL-KDD-Dataset/blob/master/KDDTrain%2B.txt
