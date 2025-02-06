@@ -62,8 +62,13 @@ Project Development Steps
  ![project screenshot](https://github.com/urmishikha/-Anomaly-defence-system-using-Intrusion-Detection-and-anomaly-identification/issues/1#issue-2825249646)
 
  # steps to make it run:
+ 
  1.run model.ipynb
+ 
  2.go to terminal
+ 
  3.type python app.py
+ 
  4.enter input in website interface
+ 
  5.pattern will be showed on screen,any irregular input will trigger the system and make it alert the user
