@@ -73,6 +73,8 @@ Project Development Steps
  
  5.pattern will be showed on screen,any irregular input will trigger the system and make it alert the user
 
+ (wrote codes in mac btw)
+
  # work to be done:
  make a real time app out of it 
 
