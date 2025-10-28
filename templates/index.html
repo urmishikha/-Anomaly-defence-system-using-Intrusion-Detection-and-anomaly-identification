@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Network Security Monitoring Dashboard</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
     <style>
         :root {
             --primary-color: #00ff00;
@@ -288,11 +288,11 @@
                 <h2>Network Traffic Analysis</h2>
                 <form id="analysisForm" onsubmit="return performDetection(event)">
                     <div class="form-group">
-                        <label for="features">Network Features</label>
+                        <label for="features">Network Features (7 values)</label>
                         <input 
                             type="text" 
                             id="features" 
-                            placeholder="Enter comma-separated feature values"
+                            placeholder="Enter 7 comma-separated values: packet_count, avg_packet_size, tcp_ratio, udp_ratio, syn_ratio, packet_rate, byte_rate"
                             required
                         >
                     </div>
@@ -440,6 +440,10 @@
                 });
                 
                 const result = await response.json();
+                if (!response.ok) {
+                    alert(result.error || 'Request failed');
+                    return;
+                }
                 totalScans++;
                 document.getElementById('totalScans').textContent = totalScans;
                 
